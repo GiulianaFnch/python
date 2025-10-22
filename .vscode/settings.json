@@ -1,0 +1,6 @@
+{
+    // Use the project's virtualenv interpreter so Pylance and the terminal resolve packages correctly
+    "python.defaultInterpreterPath": "/Users/giulianafinochio/Documents/GitHub/python/.venv/bin/python",
+    // Ensure the integrated terminal activates the selected environment
+    "python.terminal.activateEnvironment": true
+}

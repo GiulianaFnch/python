@@ -17,3 +17,14 @@ def is_palindrome(s):
 
 print(is_palindrome("Ana"))
     
+
+# solução alternativa
+
+def is_palindrome(s):
+    cleaned = s.replace(" ", "").lower()
+    return cleaned == cleaned[::-1]
+
+# Quick tests
+print(is_palindrome("radar"))                 # True
+print(is_palindrome("AI"))                    # False
+print(is_palindrome("Never odd or even"))     # True
