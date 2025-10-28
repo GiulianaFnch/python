@@ -1,60 +1,43 @@
-# Repositório de aulas — Fundamentos de Programação e Introdução à I.A.
+# Aulas de Python - Análise de Dados
 
-Este repositório reúne exemplos e exercícios das aulas de:
+Este repositório contém os projetos e exercícios desenvolvidos durante as aulas de Python, com foco em Inteligência Artificial e Análise de Dados.
 
-- Fundamentos de Programação (Python)
-- Introdução à Inteligência Artificial
+## 📝 Descrição
 
-Estrutura principal
--------------------
+O objetivo principal deste repositório é documentar meu aprendizado e progresso em Python, aplicando conceitos em projetos práticos. Os notebooks e scripts aqui presentes cobrem desde o básico da linguagem até o uso de bibliotecas avançadas para manipulação e análise de dados.
 
-- `FP/` — Exercícios e scripts de Fundamentos de Programação (laços, condicionais, listas, etc.).
-- `IIA/` — Material de Introdução à I.A. e exercícios com NumPy. Dentro de `IIA/numpy aula/` há demos e notebooks.
+## 📚 Tópicos e Bibliotecas Estudadas
 
+Atualmente, o foco dos estudos está nas seguintes bibliotecas:
 
-Como usar (rápido)
-------------------
+*   **NumPy:** Para computação numérica e manipulação de arrays multidimensionais.
+*   **Pandas:** Para manipulação e análise de dados, utilizando estruturas como DataFrames.
 
-1. Criar e ativar um ambiente virtual (recomendado):
+Outras bibliotecas e conceitos serão adicionados conforme o avanço nos estudos.
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate    # macOS / Linux (zsh)
-```
+## 📂 Estrutura do Repositório
 
-2. Instalar dependências:
+O repositório está organizado em notebooks (`.ipynb`) que demonstram a aplicação prática dos conceitos estudados.
 
-```bash
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-```
+## 🚀 Como Utilizar
 
-3. Rodar o demo NumPy:
+Para executar os notebooks, você precisará ter um ambiente Python com Jupyter Notebook/JupyterLab instalado, além das bibliotecas mencionadas.
 
-```bash
-python "IIA/numpy aula/hello_world.py"
-```
+1.  Clone o repositório:
+    ```bash
+    git clone https://github.com/GiulianaFnch/python.git
+    ```
+2.  Navegue até o diretório do projeto:
+    ```bash
+    cd python
+    ```
+3.  Instale as dependências (recomendo o uso de um ambiente virtual):
+    ```bash
+    pip install numpy pandas jupyterlab
+    ```
+4.  Inicie o JupyterLab:
+    ```bash
+    jupyter lab
+    ```
 
-4. Rodar o teste rápido:
-
-```bash
-python "IIA/numpy aula/test_numpy.py"
-```
-
-Dicas para VS Code
-------------------
-
-- Se o editor mostrar "Import could not be resolved" para `numpy`, selecione o interpretador do projeto (Command Palette → Python: Select Interpreter) e escolha o Python em `.venv/bin/python`.
-- Reinicie o servidor de linguagem (Command Palette → Python: Restart Language Server) ou recarregue a janela.
-- O repositório contém uma configuração de workspace (`.vscode/settings.json`) apontando para a virtualenv criada em `.venv/`.
-
-Contribuições
--------------
-
-Pull requests são bem-vindos. Para novos notebooks ou exercícios, crie uma pasta com um nome descritivo dentro de `IIA/` ou `FP/`.
-
-Licença
--------
-
-Use conforme as regras da sua instituição. Se quiser, posso adicionar um cabeçalho de licença padrão (MIT, Apache-2.0, etc.).
-
+Agora você pode navegar pelos notebooks e explorar os projetos.
